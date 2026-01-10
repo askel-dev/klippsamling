@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duo Devs - Axel och Calle</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Duo Devs - Axel och Calle är bäst! 🥰</h1>
+
+    <!-- Section with our favorite games -->
+    <section id="favorite-games">
+        <h2>De bästa spelen i världs historien (enligt oss):</h2>
+        <div class="game-card">
+            <!-- Dying Light -->
+            <h3>Dying Light</h3>
+            <p>Dying Light är skit kul, speciellt när man tweakar klockan 3 på natten:</p>
+            <!-- Video Carousel -->
+            <div class="video-carousel-container">
+                <button class="carousel-btn prev-btn" aria-label="Previous video">&#8249;</button>
+                <div class="video-carousel">
+                    <div class="video-slide active">
+                        <video controls class="game-video" src="/assets/dying-light-tweak.mp4" alt="Dying Light Tweaking"></video>
+                    </div>
+                    <!-- Add more video slides here as needed -->
+                    <div class="video-slide">
+                        <video controls class="game-video" src="/assets/nuh-sample.mp4" alt="Dying Light Tweaking"></video>
+                    </div>
+                    <div class="video-slide">
+                        <video controls class="game-video" src="/assets/sleeping-cat.mp4" alt="Dying Light Tweaking"></video>
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" aria-label="Next video">&#8250;</button>
+                <div class="carousel-indicators"></div>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
 </body>
 </html>
