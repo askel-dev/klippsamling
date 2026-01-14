@@ -1,5 +1,31 @@
 console.log('Hello, World!');
 
+function ÄndraTextRöd() {
+    document.getElementById("Rubrik").textContent = "Nu är hemsidan röd!";
+    console.log("Knappen har blivit klickad(Röd).");
+  
+    document.body.style.backgroundColor = "Red";
+}
+
+function ÄndraTextGrön() {
+    document.getElementById("Rubrik").textContent = "Nu är hemsidan grön!";
+    console.log("Knappen har blivit klickad(Grön).");
+    
+    document.body.style.backgroundColor = "Green";
+} 
+
+
+function ÄndraTextBlå() {
+    document.getElementById("Rubrik").textContent = "Nu är hemsidan blå!";
+    console.log("Knappen har blivit klickad(Blå).");
+   
+    document.body.style.backgroundColor = "Blue";
+}
+
+
+
+
+
 // Video Carousel Functionality
 document.addEventListener('DOMContentLoaded', function() {
     const carousel = document.querySelector('.video-carousel');
