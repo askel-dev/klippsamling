@@ -22,10 +22,6 @@ function ÄndraTextBlå() {
     document.body.style.backgroundColor = "Blue";
 }
 
-
-
-
-
 // Video Carousel Functionality
 document.addEventListener('DOMContentLoaded', function() {
     const carousel = document.querySelector('.video-carousel');
